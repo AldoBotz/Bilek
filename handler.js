@@ -31,8 +31,8 @@ module.exports = {
         global.img = pickRandom(global.waifu)
         global.fla = pickRandom(global.flaaa)
         global.namabot = conn.user.name
-        global.packname = 'Powered By'
-        global.author = 'Anjim'
+        global.packname = ''
+        global.author = 'Created By Rexxin'
         //Thx To The.sad.boy01 Buat Sc no enc nya
         global.wm2 = global.data.namabot + ' ' + global.data.owner
         global.colong1 = 'Ciss 📸'
