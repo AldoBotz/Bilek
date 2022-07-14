@@ -8,20 +8,19 @@ let handler = async (m, { conn }) => {
   title: `${await conn.getName(conn.user.jid)}`,
   description: ` *• SEWA BOT & UP TO PREMIUM •*
         
-karena bot baru di buat jadi untuk join gc free :)
-Lalu untuk premium chat own aja
+jangan lupa join official group kami
 `,
-  buttonText: 'Harga Bisa Di pertimbangkan',
+  buttonText: 'Harga Dah Pas Deck',
   listType: 2,
   productListInfo: {
   productSections: [{
   title:'Klik untuk order',
-  products:[{productId:'4938898346186376'}]}],
-  headerImage: { productId: '4938898346186376', 
+  products:[{productId:'5370437279687043'}]}],
+  headerImage: { productId: '5370437279687043', 
   jpegThumbnail: d },
   businessOwnerJid: `${owner[0]}@s.whatsapp.net`
   },
-  footerText: 'https://github.com/AhmdLui',
+  footerText: 'https://github.com/RexxinOfficial',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
 }
